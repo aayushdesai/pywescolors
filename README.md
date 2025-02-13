@@ -9,6 +9,7 @@ pip install -e .
 ## To Use
 ```python
 import matplotlib.pyplot as plt
+import wes_colors
 
 # Check available colormaps
 print(plt.colormaps())
