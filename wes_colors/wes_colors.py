@@ -36,5 +36,10 @@ def register_wes_colormaps():
         mpl.colormaps.register(name=name, cmap=cmap)
 
 # Automatically register colormaps when the module is imported
-register_wes_colormaps()
+# register_wes_colormaps()
+
+
+#allow import for color cycle
+def get_wes_cycle(name):
+    return wes_palettes[name]
 
