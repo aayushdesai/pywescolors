@@ -1,0 +1,8 @@
+setup.py
+wes_colors/__init__.py
+wes_colors/wes_colors.py
+wes_colors.egg-info/PKG-INFO
+wes_colors.egg-info/SOURCES.txt
+wes_colors.egg-info/dependency_links.txt
+wes_colors.egg-info/requires.txt
+wes_colors.egg-info/top_level.txt
