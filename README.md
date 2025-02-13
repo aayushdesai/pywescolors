@@ -17,6 +17,13 @@ print(plt.colormaps())
 plt.imshow([[0,1,2,3,4]], cmap="Zissou1")
 ```
 
+## To set it as a cycler
+```python
+import matplotlib.pyplot as plt
+from wes_colors import wes_colors
+plt.rc('axes', prop_cycle=plt.cycler(color=wes_colors.get_wes_cycle('Darjeeling1')))
+```
+
 How they look:
 ### Zissou1
 ![Zissou1](Figures/Zissou1.png)
