@@ -43,3 +43,17 @@ def register_wes_colormaps():
 def get_wes_cycle(name):
     return wes_palettes[name]
 
+
+def get_options():
+    return list(wes_palettes.keys())
+
+def plot_options():
+    import matplotlib.pyplot as plt
+    for cmaps in list(wes_palettes.keys()):
+      plt.imshow([[0,1,2,3,4]], cmap=cmaps)
+      plt.xticks([])
+      plt.yticks([])
+      # plt.gca().set_facecolor('black')
+      plt.title(cmaps)
+      plt.tight_layout()
+      plt.show()
